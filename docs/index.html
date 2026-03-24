@@ -30,8 +30,49 @@
   <!-- Alpine.js CDN -->
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js"></script>
 
-  <!-- Embed script (self, for dogfooding demos) -->
-  <script src="./dist/embed.min.js"></script>
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://widget.widesutra.com/">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://widesutra.com/favicon.ico" sizes="32x32">
+
+  <!-- Additional OG tags -->
+  <meta property="og:site_name" content="WideSutra Embed">
+  <meta property="og:image" content="https://cdn.widesutra.com/og/widesutra-white-card.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="WideSutra Embed Widget">
+  <meta name="twitter:description" content="Embed Buddhist Sutras widgets on any website.">
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "WideSutra Embed Widget",
+  "url": "https://widget.widesutra.com/",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Organization",
+    "name": "WideHoly",
+    "url": "https://wideholy.com"
+  },
+  "description": "Embed WideSutra Buddhist Sutra widgets on any website. Zero dependencies, Shadow DOM isolation, 3 themes."
+}
+  </script>
+
+  <!-- Robots -->
+  <meta name="robots" content="index, follow">
+
+  <!-- Embed script via jsDelivr CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/widesutra-embed@1/dist/embed.min.js"></script>
 
   <style>
     :root { --accent: #D97706; }
