@@ -148,6 +148,17 @@ Part of [WideHoly](https://wideholy.com) — Scripture for everyone.
 | **WideSutra** | [widesutra.com](https://widesutra.com) | Buddhist sutras, teachings |
 | **WideHoly** | [wideholy.com](https://wideholy.com) | Multi-religion scripture hub |
 
+## Embed Widget
+
+Embed [WideSutra](https://widesutra.com) widgets on any website with [widesutra-embed](https://widget.widesutra.com):
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/widesutra-embed@1/dist/embed.min.js"></script>
+<div data-widesutra="entity" data-slug="example"></div>
+```
+
+Zero dependencies · Shadow DOM · 4 themes (light/dark/sepia/auto) · [Widget docs](https://widget.widesutra.com)
+
 ## License
 
 MIT — see [LICENSE](./LICENSE).
