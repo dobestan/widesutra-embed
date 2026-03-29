@@ -1,0 +1,28 @@
+# WideSutra Embed Widget
+
+> Embeddable WideSutra widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/widesutra-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://widesutra.com
+- Widget docs: https://widget.widesutra.com
+- npm: https://www.npmjs.com/package/widesutra-embed
+- GitHub: https://github.com/dobestan/widesutra-embed
+- API: https://widesutra.com/developers/
+
+## WideHoly Widget Family
+
+- [WideHoly Widget](https://widget.wideholy.com)
+- [WideBible Widget](https://widget.widebible.com)
+- [WideQuran Widget](https://widget.widequran.com)
+- [WideTorah Widget](https://widget.widetorah.com)
+- [WideGita Widget](https://widget.widegita.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
