@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# WideSutra Embed Widget
+# Main site: https://widesutra.com
+# Widget docs: https://widget.widesutra.com
+# npm: https://www.npmjs.com/package/widesutra-embed
